@@ -1,0 +1,76 @@
+* {
+    font-size: 30px;
+    font-style: bold;
+    font-family: Tahoma;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cyan;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    text-align: left;
+}
+
+h1 {
+    background-color: yellow;
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.stars {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 100px; /* Increase the font size for larger stars */
+}
+
+.star {
+    color: grey;
+    transition: color 0.3s;
+}
+
+.star.checked {
+    color: gold;
+}
+
+.btn {
+    width: 100%;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    color: black;
+    background-color: yellow;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+    resize: none;
+}
